@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>RESUME</title><meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <style>
+   * {
+     box-sizing: border-box;
+   }
+   
+   body {
+     font-family: Arial, Helvetica, sans-serif;
+   }
+   
+   header {
+    background-color: #666;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+  }
+  nav {
+  float: left;
+  width: 20%;
+  height: 800px; 
+  background-color:lightgray
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color:#ccc;
+  height: 800px; 
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  </style> 
+</head>
+<body style="background-color:ghostwhite;">
+<header>   
+<h1 style="text-align:center;"><b>SHREYA MRIDULA</b></h1>
+</header>
+<hr style="color:black">
+<h2 style="text-align:center;">Software developer</h2>
+<hr style="color:black">
+<section>
+    <nav>
+        <ul>
+<h2><b><u>Contact details:</u></b></h2><br>
+<p1><b>Email:</b>xxx@gmail.com</p1><br>
+<p2><b>Ph.no:</b>3456789012</p2><br>
+<p3><b>Linkedin :</b><a href ="www.linkedin.com/in/shreya-mridula-a48851257">Linkedin link</a></p3>
+</ul>
+</nav>
+<article>
+<h2><img src="girl_image.png" style="float:right;width:32px;height:32px"><b><u>Education:</u></b></h2>
+<p4><b>Degree :</b>B.E. Computer science and engineering</p4><br>
+<p5><b>Years :</b>2022-2026</p5><br>
+<p6><b>Gpa :</b>xxx</p6><br>
+<h2><b><u>Skills :</u></b></h2>
+<p7>Python<br>C language<br>Java<br>Html<br>Backend management<br>Uipath</p7>
+<h2><b><u>Certification :</u></b></h2>
+<p8>1.Google certified educator and completion skill badges<br>2.Great learning certification on completion of python course<br>3.Certification on completing course on microsoft fundamentals by microsoft</p8>
+<h2><b><u>Projects:</u></b></h2>
+<p9>Job portal system using python with database system management</p9>
+<h3><b><u>Career Objective: </u></b></h3>
+<p10>Tech enthusiast person ,eager to learn and gain lot of experience in IT field</p10>
+    </article>
+    </section>
+
+</body>
+</html>
